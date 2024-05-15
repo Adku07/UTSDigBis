@@ -1,0 +1,409 @@
+.navbar img{
+    height: 90px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 500;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/sate.jpg'); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(5px); 
+    z-index: -1; 
+    opacity: 0.8;
+}
+
+.navbar span{
+    color: black;
+
+}
+
+.navbar ul{
+    color: black;
+    flex-direction: row;
+    margin-right: 0%;
+}
+
+.navbar ul li{
+    margin-right: 20px;
+}
+
+.chef{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    
+}
+
+
+.rounded-box {
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-file{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.text-center a{
+    color: black;
+}
+
+.p1 {
+    font-weight: 1000;
+    font-size: 32px;
+    animation: typing 2s steps(40, end) infinite;
+}
+
+.p2 {
+    font-size: x-large;
+    font-weight: 1000;
+    animation: typing 2s steps(40, end) infinite;
+}
+
+.p3 {
+    font-weight: 1000;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    padding-left: 15px;
+    height: 80px;
+    flex: 0 0 30%; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+#content-1{
+    padding-top: 50px;
+}
+
+.ketentuan{
+    color: black;
+    font-weight: 500;
+}
+
+.over {
+    width: 80%; 
+    height: 100%; 
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0 50px 50px 0;
+    overflow: visible; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.text {
+    width: 120%;
+    font-size: 25px;
+    font-weight: 1000;
+    position: relative;
+    right: -25%; 
+    top: 40px;
+}
+
+.under-c2{
+    font-weight: 400;
+    width: 150%;
+    position: relative;
+    right: -10%; 
+    top: 20px;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto; 
+}
+
+.hand img{
+    width: 50%; 
+    height: auto; 
+    max-width: 100%; 
+}
+
+footer{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 300px;
+    margin-top: 20%; /* Padding top and bottom */
+}
+
+.foot-content {
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-content li{
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+footer p{
+    color: #ffffff;
+    position: absolute; /* Atur posisi absolut pada teks */
+    bottom: 0; /* Tempatkan teks di bagian bawah footer */
+    left: 0; /* Tempatkan teks di sebelah kiri footer */
+    width: 100%; /* Lebar teks mengikuti lebar footer */
+}
+
+.btn-opa{
+    opacity: 70%;
+}
+
+footer ul a{
+    color: rgb(164, 164, 164);
+    text-decoration: none;
+    
+}
+
+footer ul a:hover{
+    text-decoration: underline;
+}
+
+.image-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-footer img {
+
+    height: 50px;
+    flex: 0 0 10%; 
+
+}
+
+
+
+/*Landing-page */
+.lp1{
+    padding-bottom: 9%;
+    font-weight: 700;
+    font-size: 20px;
+}
+.lp-btn{
+    border: none;
+    color: white;
+    background-color: rgb(183, 110, 110);
+    border-radius:500px;
+    height: 10%;
+    width: 30%;
+}
+
+.lp-over{
+    width: 60%; 
+    height: 100%; 
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0 50px 50px 0;
+    overflow: visible; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.lp-text {
+    width: 120%;
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+    right: -25%; 
+    top: 40px;
+}
+
+.lp-under-c2{
+    font-weight: 400;
+    width: 150%;
+    position: relative;
+    right: -15%; 
+    top: 20px;
+}
+
+.steak{
+    width: 60%;
+    height: auto;
+}
+
+.mini-over{
+    margin: 30%;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 60%;
+    width: 60%;
+    border-radius: 25%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.mini-over img{
+    width: 120%;
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+    right: 11%; 
+    top: -40px;
+}
+
+.mini-over p{
+    font-weight: 500;
+    font-size: large;
+    width: 150%;
+    position: relative;
+    right: 24%; 
+    top: -20%;
+}
+
+.title1-c4{
+    margin-left: 5%;
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 20px;    
+}
+
+.best{
+    font-weight: 650;
+    font-size: large;
+}
+.custom-hr {
+    height: 4px;
+    color: black;
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    opacity: 1;
+}
+
+.r-btn-l{
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(185, 111, 8);
+    border-radius:500px;
+    height: 120%;
+    width: 150%;
+    font-weight: 500;
+
+}
+
+.r-btn-r{
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(189, 171, 171);
+    border-radius:500px;
+    height: 120%;
+    width: 100%;
+    margin-left: 50%;
+    font-weight: 500;
+
+}
+.center-content {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.center-content p{
+    padding-top: 5%;
+}
+
+.center-content h5{
+    font-weight: 1000;
+    font-size: 25px;
+}
+
+
+.inf{
+    background-color: white;
+    height: 30%;
+    border-radius: 15px;  
+}
+
+.inf h6, p{
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 12px;
+}
+.inf .row{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: grey;
+    font-size: 12px;
+}
+
+.infp{
+    background-color: white;
+    height: 60%;
+    border-radius: 12px;  
+}
+
+.infp h4{
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 12px;
+}
+
+.infp button{
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin: 4px;
+    background-color: rgb(212, 212, 212);
+    border: none;
+    font-size: 12px;
+}
+
+.infp input{
+    margin-left: 15px;
+    width: 80%;
+    font-size: 10px;
+}
+@keyframes pulseAnimation {
+    0% {
+        transform: scale(1); /* Initial scale */
+    }
+    50% {
+        transform: scale(1.2); /* Peak scale */
+    }
+    100% {
+        transform: scale(1); /* Back to original scale */
+    }
+}
+
+@keyframes typing {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
